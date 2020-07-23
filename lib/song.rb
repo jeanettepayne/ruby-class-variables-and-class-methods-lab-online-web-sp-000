@@ -28,7 +28,6 @@ class Song
   
   def self.genre_count
     @@genres.inject(Hash.new(0)) do |hash, genre|
-        if hash[genre]
           hash[genre] += 1 
         else
           hash[genre] = 1
