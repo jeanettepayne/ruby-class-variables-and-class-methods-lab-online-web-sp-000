@@ -28,7 +28,7 @@ class Song
   
   def self.genre_count
     @@genres.inject(hash.new(0)) do |hash, genre|
-        genre_count[genre] += 1 
+        
     end
   end
   genre_count
