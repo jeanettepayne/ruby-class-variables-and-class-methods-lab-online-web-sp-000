@@ -19,7 +19,7 @@ class Song
   end
   
   def self.artists
-    @@artists.flatten
+    @@artists.uniq
   end
   
 end
